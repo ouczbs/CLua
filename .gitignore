@@ -1,0 +1,13 @@
+*.zip
+*.tar.gz
+
+lua-5.4.4/
+lua-protobuf-zip/
+
+**/.vs/
+**/Debug/
+**/Realease/
+**/x64/
+*.log
+*.obj
+*.txt
