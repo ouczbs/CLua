@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{93B49CA9-2ADB-3740-BA7F-ECD0A13E9975}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\ouczbs\Protobuf\protobuf-cpp\out\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\ouczbs\Protobuf\protobuf-cpp\out\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\ouczbs\Protobuf\protobuf-cpp\out\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\ouczbs\Protobuf\protobuf-cpp\out\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4065;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GOOGLE_PROTOBUF_TEST_PLUGIN_PATH="F:/ouczbs/Protobuf/protobuf-cpp/out/Debug/test_plugin.exe";GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GOOGLE_PROTOBUF_TEST_PLUGIN_PATH=\"F:/ouczbs/Protobuf/protobuf-cpp/out/Debug/test_plugin.exe\";GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\protobuf-lite-test-common.lib;Debug\protobuf-test-common.lib;Debug\libprotocd.lib;Debug\libprotobufd.lib;Debug\gmock_main.lib;Debug\libprotobuf-lited.lib;Debug\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/ouczbs/Protobuf/protobuf-cpp/out/Debug/tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/ouczbs/Protobuf/protobuf-cpp/out/Debug/tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4146;4065;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_TEST_PLUGIN_PATH="F:/ouczbs/Protobuf/protobuf-cpp/out/Release/test_plugin.exe";GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_TEST_PLUGIN_PATH=\"F:/ouczbs/Protobuf/protobuf-cpp/out/Release/test_plugin.exe\";GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\protobuf-lite-test-common.lib;Release\protobuf-test-common.lib;Release\libprotoc.lib;Release\libprotobuf.lib;Release\gmock_main.lib;Release\libprotobuf-lite.lib;Release\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/ouczbs/Protobuf/protobuf-cpp/out/Release/tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/ouczbs/Protobuf/protobuf-cpp/out/Release/tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4146;4065;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_TEST_PLUGIN_PATH="F:/ouczbs/Protobuf/protobuf-cpp/out/MinSizeRel/test_plugin.exe";GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_TEST_PLUGIN_PATH=\"F:/ouczbs/Protobuf/protobuf-cpp/out/MinSizeRel/test_plugin.exe\";GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\protobuf-lite-test-common.lib;MinSizeRel\protobuf-test-common.lib;MinSizeRel\libprotoc.lib;MinSizeRel\libprotobuf.lib;MinSizeRel\gmock_main.lib;MinSizeRel\libprotobuf-lite.lib;MinSizeRel\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/ouczbs/Protobuf/protobuf-cpp/out/MinSizeRel/tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/ouczbs/Protobuf/protobuf-cpp/out/MinSizeRel/tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4065;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_TEST_PLUGIN_PATH="F:/ouczbs/Protobuf/protobuf-cpp/out/RelWithDebInfo/test_plugin.exe";GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_TEST_PLUGIN_PATH=\"F:/ouczbs/Protobuf/protobuf-cpp/out/RelWithDebInfo/test_plugin.exe\";GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\protobuf-lite-test-common.lib;RelWithDebInfo\protobuf-test-common.lib;RelWithDebInfo\libprotoc.lib;RelWithDebInfo\libprotobuf.lib;RelWithDebInfo\gmock_main.lib;RelWithDebInfo\libprotobuf-lite.lib;RelWithDebInfo\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/ouczbs/Protobuf/protobuf-cpp/out/RelWithDebInfo/tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/ouczbs/Protobuf/protobuf-cpp/out/RelWithDebInfo/tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\ouczbs\Protobuf\protobuf-cpp\cmake\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/ouczbs/Protobuf/protobuf-cpp/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMake\bin\cmake.exe -SF:/ouczbs/Protobuf/protobuf-cpp/cmake -BF:/ouczbs/Protobuf/protobuf-cpp/out --check-stamp-file F:/ouczbs/Protobuf/protobuf-cpp/out/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.24\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;E:\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;F:\ouczbs\Protobuf\protobuf-cpp\CMakeLists.txt;F:\ouczbs\Protobuf\protobuf-cpp\cmake\extract_includes.bat.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\install.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotobuf-lite.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotobuf.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotoc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-config-version.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-config.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-lite.pc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-module.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-options.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf.pc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protoc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\tests.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\version.rc.in;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeCCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/ouczbs/Protobuf/protobuf-cpp/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMake\bin\cmake.exe -SF:/ouczbs/Protobuf/protobuf-cpp/cmake -BF:/ouczbs/Protobuf/protobuf-cpp/out --check-stamp-file F:/ouczbs/Protobuf/protobuf-cpp/out/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.24\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;E:\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;F:\ouczbs\Protobuf\protobuf-cpp\CMakeLists.txt;F:\ouczbs\Protobuf\protobuf-cpp\cmake\extract_includes.bat.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\install.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotobuf-lite.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotobuf.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotoc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-config-version.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-config.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-lite.pc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-module.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-options.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf.pc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protoc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\tests.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\version.rc.in;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeCCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/ouczbs/Protobuf/protobuf-cpp/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\CMake\bin\cmake.exe -SF:/ouczbs/Protobuf/protobuf-cpp/cmake -BF:/ouczbs/Protobuf/protobuf-cpp/out --check-stamp-file F:/ouczbs/Protobuf/protobuf-cpp/out/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.24\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;E:\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;F:\ouczbs\Protobuf\protobuf-cpp\CMakeLists.txt;F:\ouczbs\Protobuf\protobuf-cpp\cmake\extract_includes.bat.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\install.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotobuf-lite.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotobuf.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotoc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-config-version.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-config.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-lite.pc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-module.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-options.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf.pc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protoc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\tests.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\version.rc.in;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeCCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/ouczbs/Protobuf/protobuf-cpp/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMake\bin\cmake.exe -SF:/ouczbs/Protobuf/protobuf-cpp/cmake -BF:/ouczbs/Protobuf/protobuf-cpp/out --check-stamp-file F:/ouczbs/Protobuf/protobuf-cpp/out/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.24\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;E:\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;E:\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;F:\ouczbs\Protobuf\protobuf-cpp\CMakeLists.txt;F:\ouczbs\Protobuf\protobuf-cpp\cmake\extract_includes.bat.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\install.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotobuf-lite.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotobuf.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\libprotoc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-config-version.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-config.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-lite.pc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-module.cmake.in;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf-options.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protobuf.pc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\protoc.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\tests.cmake;F:\ouczbs\Protobuf\protobuf-cpp\cmake\version.rc.in;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeCCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeCXXCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\3.24.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\any_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arena_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenastring_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenaz_sampler_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\annotation_test_util.cc" />
+    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\annotation_test_util.h" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\command_line_interface_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\cpp\bootstrap_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\cpp\message_size_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\cpp\metadata_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\cpp\move_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\cpp\plugin_unittest.cc">
+      <ObjectFileName>$(IntDir)/F_/ouczbs/Protobuf/protobuf-cpp/src/google/protobuf/compiler/cpp/plugin_unittest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\cpp\unittest.cc" />
+    <None Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\cpp\unittest.inc">
+    </None>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\csharp\csharp_bootstrap_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\csharp\csharp_generator_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\importer_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\java\doc_comment_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\java\plugin_unittest.cc">
+      <ObjectFileName>$(IntDir)/F_/ouczbs/Protobuf/protobuf-cpp/src/google/protobuf/compiler/java/plugin_unittest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\objectivec\objectivec_helpers_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\parser_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\python\plugin_unittest.cc">
+      <ObjectFileName>$(IntDir)/F_/ouczbs/Protobuf/protobuf-cpp/src/google/protobuf/compiler/python/plugin_unittest.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\compiler\ruby\ruby_generator_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\descriptor_database_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\descriptor_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\drop_unknown_fields_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\dynamic_message_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\extension_set_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_reflection_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_tctable_lite_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\inlined_string_field_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\coded_stream_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\io_win32_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\printer_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\tokenizer_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_field_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_test.cc" />
+    <None Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_test.inc">
+    </None>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\message_unittest.cc" />
+    <None Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\message_unittest.inc">
+    </None>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\no_field_presence_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\preserve_unknown_enum_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\proto3_arena_lite_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\proto3_arena_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\proto3_lite_unittest.cc" />
+    <None Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\proto3_lite_unittest.inc">
+    </None>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\reflection_ops_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_field_reflection_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_field_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\bytestream_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\common_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\int128_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\status_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\statusor_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stringpiece_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stringprintf_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\structurally_valid_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\strutil_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\template_util_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\time_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\text_format_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\unknown_field_set_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\delimited_message_util_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\field_comparator_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\field_mask_util_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\internal\default_value_objectwriter_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\internal\json_objectwriter_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\internal\json_stream_parser_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\internal\protostream_objectsource_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\internal\protostream_objectwriter_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\internal\type_info_test_helper.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\json_util_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\message_differencer_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\time_util_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\util\type_resolver_util_test.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\well_known_types_unittest.cc" />
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\wire_format_unittest.cc" />
+    <None Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\wire_format_unittest.inc">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\ouczbs\Protobuf\protobuf-cpp\out\ZERO_CHECK.vcxproj">
+      <Project>{E58053B9-E6C4-3DE1-9BF6-CB7AC90417FB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\ouczbs\Protobuf\protobuf-cpp\out\gmock.vcxproj">
+      <Project>{E4C689E0-0C70-3A14-8048-BA93FB71CF8A}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\ouczbs\Protobuf\protobuf-cpp\out\gmock_main.vcxproj">
+      <Project>{AEAE81E7-EF2E-3F68-BD2C-AED339565DFF}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\ouczbs\Protobuf\protobuf-cpp\out\libprotobuf.vcxproj">
+      <Project>{41D3E10A-3B73-3F83-9076-F41E1CAD9038}</Project>
+      <Name>libprotobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\ouczbs\Protobuf\protobuf-cpp\out\libprotobuf-lite.vcxproj">
+      <Project>{E1D0EAE0-7027-330C-A669-0D14F16E1318}</Project>
+      <Name>libprotobuf-lite</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\ouczbs\Protobuf\protobuf-cpp\out\libprotoc.vcxproj">
+      <Project>{0F77A2DB-0344-3020-8777-3A3E9BA2E16A}</Project>
+      <Name>libprotoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\ouczbs\Protobuf\protobuf-cpp\out\protobuf-lite-test-common.vcxproj">
+      <Project>{28B389C7-39E5-373F-81B4-7F136EE3D17E}</Project>
+      <Name>protobuf-lite-test-common</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\ouczbs\Protobuf\protobuf-cpp\out\protobuf-test-common.vcxproj">
+      <Project>{C95804C1-3B6B-3BDB-8978-80A5F5DC4B83}</Project>
+      <Name>protobuf-test-common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

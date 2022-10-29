@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arena_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_lite_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\test_util_lite.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_lite_unittest.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\unittest_import_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\unittest_import_public_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\unittest_lite.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\11d20c84547fd60ec9e2248ecc5671e8\map_lite_unittest.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\11d20c84547fd60ec9e2248ecc5671e8\unittest_import_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\11d20c84547fd60ec9e2248ecc5671e8\unittest_import_public_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\ouczbs\Protobuf\protobuf-cpp\out\CMakeFiles\11d20c84547fd60ec9e2248ecc5671e8\unittest_lite.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\ouczbs\Protobuf\protobuf-cpp\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{42C0D233-0EC3-3596-9256-4A204F2A23CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0DD25336-5756-301A-A0AB-CBC7BD58DF8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

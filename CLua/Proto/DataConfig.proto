@@ -1,0 +1,30 @@
+syntax = "proto3";
+package pb;
+option optimize_for = SPEED;
+
+message GuiConfig{
+    message UIItem{
+        int32 id = 1;
+        string layout = 3;
+        int32 layer = 4;
+    }
+    map<string, UIItem> item_map = 1;
+}
+
+message BPConfig{
+    message BPItem{
+        string bp_name = 1;
+        string lua_name = 2;
+    }
+    repeated BPItem item_list = 1;
+}
+message Result{
+    string bp_name = 1;
+    string lua_name = 2;
+}
+message TestConfig{
+    int32 a = 1;
+    repeated string b = 2;
+    string c = 3;
+    repeated Result d = 4;
+}
