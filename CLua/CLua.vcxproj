@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)\$(Configuration)\</OutDir>
-    <IncludePath>$(ProjectDir)../Lua;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)../Lua;$(ProjectDir)../lua-protobuf;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -113,7 +113,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Debug\Lua.lib;Debug\libprotocd.lib;Debug\libprotobufd.lib;Debug\gmock_main.lib;Debug\libprotobuf-lited.lib;Debug\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Debug\Lua.lib;Debug\lua-protobuf.lib;Debug\libprotocd.lib;Debug\libprotobufd.lib;Debug\gmock_main.lib;Debug\libprotobuf-lited.lib;Debug\gmock.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)\</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -135,6 +135,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CLua.cpp" />
+    <ClCompile Include="luautil.cpp" />
+    <ClCompile Include="protobuf.cpp" />
     <ClCompile Include="Proto\cpp\Cmd.pb.cc" />
     <ClCompile Include="Proto\cpp\DataConfig.pb.cc" />
     <ClCompile Include="Proto\cpp\Login.pb.cc" />
@@ -142,6 +144,9 @@
     <ClCompile Include="Proto\cpp\Wrap.pb.cc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Degines.h" />
+    <ClInclude Include="luautil.h" />
+    <ClInclude Include="protobuf.h" />
     <ClInclude Include="Proto\cpp\Cmd.pb.h" />
     <ClInclude Include="Proto\cpp\DataConfig.pb.h" />
     <ClInclude Include="Proto\cpp\Login.pb.h" />

@@ -6,8 +6,10 @@ lua-protobuf-zip/
 
 **/.vs/
 **/Debug/
-**/Realease/
+**/Release/
 **/x64/
 *.log
 *.obj
 *.txt
+*.cc
+*.exe

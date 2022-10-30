@@ -1,7 +1,7 @@
-prefix=C:/Program Files (x86)/protobuf
-exec_prefix=C:/Program Files (x86)/protobuf
-libdir=C:/Program Files (x86)/protobuf/lib
-includedir=C:/Program Files (x86)/protobuf/include
+prefix=F:/ouczbs/Protobuf
+exec_prefix=F:/ouczbs/Protobuf
+libdir=F:/ouczbs/Protobuf/lib
+includedir=F:/ouczbs/Protobuf/include
 
 Name: Protocol Buffers
 Description: Google's Data Interchange Format

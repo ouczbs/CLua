@@ -33,6 +33,12 @@
     <ClCompile Include="Proto\cpp\Wrap.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="protobuf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="luautil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Proto\cpp\Cmd.pb.h">
@@ -48,6 +54,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Proto\cpp\Wrap.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="luautil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Degines.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
