@@ -3,7 +3,8 @@
 
 lua-5.4.4/
 lua-protobuf-zip/
-
+**/CMakeFiles/
+**/out/
 **/.vs/
 **/Debug/
 **/Release/
