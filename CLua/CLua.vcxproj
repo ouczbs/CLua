@@ -72,7 +72,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)\$(Configuration)\</OutDir>
-    <IncludePath>$(ProjectDir)../Lua;$(ProjectDir)../lua-protobuf;$(IncludePath)</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)../Lua;$(ProjectDir)../lua-protobuf;src;$(IncludePath)</IncludePath>
+    <IntDir>bin\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <IntDir>bin\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);src</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -108,7 +114,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>F:\ouczbs\Protobuf\protobuf-cpp\out;F:\ouczbs\Protobuf\protobuf-cpp\src;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;F:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\ouczbs\Protobuf\protobuf-cpp\out;E:\ouczbs\Protobuf\protobuf-cpp\src;E:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock;E:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest;E:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googletest\include;E:\ouczbs\Protobuf\protobuf-cpp\third_party\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -135,23 +141,32 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CLua.cpp" />
-    <ClCompile Include="luautil.cpp" />
-    <ClCompile Include="protobuf.cpp" />
-    <ClCompile Include="Proto\cpp\Cmd.pb.cc" />
-    <ClCompile Include="Proto\cpp\DataConfig.pb.cc" />
-    <ClCompile Include="Proto\cpp\Login.pb.cc" />
-    <ClCompile Include="Proto\cpp\MessageType.pb.cc" />
-    <ClCompile Include="Proto\cpp\Wrap.pb.cc" />
+    <ClCompile Include="src\test\lua\luadebug.cpp" />
+    <ClCompile Include="src\test\api\luaref.cpp" />
+    <ClCompile Include="src\test\api\luaapi.cpp" />
+    <ClCompile Include="src\util\luautil.cpp" />
+    <ClCompile Include="src\test\pb\protobuf.cpp" />
+    <ClCompile Include="proto\cpp\Cmd.pb.cc" />
+    <ClCompile Include="proto\cpp\DataConfig.pb.cc" />
+    <ClCompile Include="proto\cpp\Login.pb.cc" />
+    <ClCompile Include="proto\cpp\MessageType.pb.cc" />
+    <ClCompile Include="proto\cpp\Wrap.pb.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Degines.h" />
-    <ClInclude Include="luautil.h" />
-    <ClInclude Include="protobuf.h" />
-    <ClInclude Include="Proto\cpp\Cmd.pb.h" />
-    <ClInclude Include="Proto\cpp\DataConfig.pb.h" />
-    <ClInclude Include="Proto\cpp\Login.pb.h" />
-    <ClInclude Include="Proto\cpp\MessageType.pb.h" />
-    <ClInclude Include="Proto\cpp\Wrap.pb.h" />
+    <ClInclude Include="src\test\lua\luadebug.h" />
+    <ClInclude Include="src\test\api\luaref.h" />
+    <ClInclude Include="src\test\api\luaapi.h" />
+    <ClInclude Include="src\base\Degines.h" />
+    <ClInclude Include="src\util\luautil.h" />
+    <ClInclude Include="src\test\pb\protobuf.h" />
+    <ClInclude Include="proto\cpp\Cmd.pb.h" />
+    <ClInclude Include="proto\cpp\DataConfig.pb.h" />
+    <ClInclude Include="proto\cpp\Login.pb.h" />
+    <ClInclude Include="proto\cpp\MessageType.pb.h" />
+    <ClInclude Include="proto\cpp\Wrap.pb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lua\testdebug.lua" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

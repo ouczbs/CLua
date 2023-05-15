@@ -4,8 +4,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "Degines.h"
-#include "protobuf.h"
+#include "base/Degines.h"
+#include "test/lua/luadebug.h"
 using namespace std;
 
 int main()
@@ -13,10 +13,11 @@ int main()
     lua_State * L = luaL_newstate();
     luaL_openlibs(L);
     //TestLuaSerialize(L);
-    TestLuaRef(L);
+    //TestLuaRef(L);
+    TestLuaDebug(L);
     cout << "Hello World!\n";
-    testing::InitGoogleTest();
-    int ret = RUN_ALL_TESTS();
+    //testing::InitGoogleTest();
+    //int ret = RUN_ALL_TESTS();
     lua_close(L);
-    return ret;
+    return 1;
 }

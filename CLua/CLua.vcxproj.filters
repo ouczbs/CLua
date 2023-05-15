@@ -18,52 +18,73 @@
     <ClCompile Include="CLua.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Proto\cpp\Cmd.pb.cc">
+    <ClCompile Include="proto\cpp\Cmd.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Proto\cpp\DataConfig.pb.cc">
+    <ClCompile Include="proto\cpp\DataConfig.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Proto\cpp\Login.pb.cc">
+    <ClCompile Include="proto\cpp\Login.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Proto\cpp\MessageType.pb.cc">
+    <ClCompile Include="proto\cpp\MessageType.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Proto\cpp\Wrap.pb.cc">
+    <ClCompile Include="proto\cpp\Wrap.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="protobuf.cpp">
+    <ClCompile Include="src\test\pb\protobuf.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="luautil.cpp">
+    <ClCompile Include="src\util\luautil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\api\luaapi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\api\luaref.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\lua\luadebug.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Proto\cpp\Cmd.pb.h">
+    <ClInclude Include="proto\cpp\Cmd.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Proto\cpp\DataConfig.pb.h">
+    <ClInclude Include="proto\cpp\DataConfig.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Proto\cpp\Login.pb.h">
+    <ClInclude Include="proto\cpp\Login.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Proto\cpp\MessageType.pb.h">
+    <ClInclude Include="proto\cpp\MessageType.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Proto\cpp\Wrap.pb.h">
+    <ClInclude Include="proto\cpp\Wrap.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="protobuf.h">
+    <ClInclude Include="src\test\pb\protobuf.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="luautil.h">
+    <ClInclude Include="src\util\luautil.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Degines.h">
+    <ClInclude Include="src\base\Degines.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\test\api\luaapi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\api\luaref.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\lua\luadebug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lua\testdebug.lua" />
   </ItemGroup>
 </Project>

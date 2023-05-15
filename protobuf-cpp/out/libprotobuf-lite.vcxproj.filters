@@ -1,269 +1,269 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\any_lite.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\any_lite.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arena.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arena.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenastring.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenastring.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenaz_sampler.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenaz_sampler.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\extension_set.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\extension_set.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_enum_util.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_enum_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_tctable_lite.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_tctable_lite.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_util.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\implicit_weak_message.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\implicit_weak_message.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\inlined_string_field.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\inlined_string_field.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\coded_stream.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\coded_stream.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\io_win32.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\io_win32.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\strtod.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\strtod.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream_impl.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream_impl_lite.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream_impl_lite.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\message_lite.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\message_lite.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\parse_context.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\parse_context.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_field.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_field.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_ptr_field.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_ptr_field.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\bytestream.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\bytestream.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\common.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\common.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\int128.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\int128.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\status.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\status.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\statusor.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\statusor.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stringpiece.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stringpiece.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stringprintf.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stringprintf.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\structurally_valid.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\structurally_valid.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\strutil.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\strutil.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\time.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\time.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\wire_format_lite.cc">
+    <ClCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\wire_format_lite.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\any.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\any.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arena.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arena.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arena_impl.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arena_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenastring.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenastring.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenaz_sampler.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\arenaz_sampler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\endian.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\endian.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\explicitly_constructed.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\explicitly_constructed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\extension_set.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\extension_set.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\extension_set_inl.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\extension_set_inl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_enum_util.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_enum_util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_tctable_decl.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_tctable_decl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_tctable_impl.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_tctable_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_util.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\generated_message_util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\has_bits.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\has_bits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\implicit_weak_message.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\implicit_weak_message.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\inlined_string_field.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\inlined_string_field.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\coded_stream.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\coded_stream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\io_win32.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\io_win32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\strtod.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\strtod.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream_impl.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream_impl_lite.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\io\zero_copy_stream_impl_lite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_entry_lite.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_entry_lite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_field_lite.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_field_lite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_type_handler.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\map_type_handler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\message_lite.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\message_lite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\metadata_lite.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\metadata_lite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\parse_context.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\parse_context.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\port.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\port.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_field.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_field.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_ptr_field.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\repeated_ptr_field.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\bytestream.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\bytestream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\callback.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\callback.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\casts.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\casts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\common.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\hash.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\hash.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\logging.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\logging.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\macros.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\macros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\map_util.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\map_util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\mutex.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\mutex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\once.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\once.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\platform_macros.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\platform_macros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\port.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\port.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\status.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\status.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stl_util.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stl_util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stringpiece.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\stringpiece.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\strutil.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\strutil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\template_util.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\stubs\template_util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\wire_format_lite.h">
+    <ClInclude Include="E:\ouczbs\Protobuf\protobuf-cpp\src\google\protobuf\wire_format_lite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\ouczbs\Protobuf\protobuf-cpp\cmake\CMakeLists.txt" />
+    <CustomBuild Include="E:\ouczbs\Protobuf\protobuf-cpp\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="F:\ouczbs\Protobuf\protobuf-cpp\out\version.rc">
+    <ResourceCompile Include="E:\ouczbs\Protobuf\protobuf-cpp\out\version.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{62D02F20-5B2A-32CE-BFCB-DFE70D85F930}</UniqueIdentifier>
+      <UniqueIdentifier>{4E8454D6-FEBD-3E67-8F97-0244353C5F50}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{0DD25336-5756-301A-A0AB-CBC7BD58DF8E}</UniqueIdentifier>
+      <UniqueIdentifier>{02F438B1-9438-3CC2-88D0-5C99C34BC14E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
